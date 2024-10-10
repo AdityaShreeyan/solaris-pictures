@@ -7,14 +7,14 @@ export default function WhatWeDo(){
                  <div className='absolute top-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
                     {/* Red Square  */}
                     <div className='bg-red-600 h-11 w-11 sm:h-12 sm:w-12 md:h-16 md:w-16 absolute top-5 -left-2'></div>
-                    <h2 className='text-4xl sm:text-5xl md:text-7xl font-bold mt-10 mb-10 ml-5 relative whitespace-nowrap'>What We Do?</h2>
+                    <h2 className='text-2xl sm:text-4xl md:text-6x font-bold mt-10 mb-10 ml-5 relative whitespace-nowrap'>What We Do?</h2>
                     </div>
                     </div>
-                <p className='mt-28 text-center text-lg sm:text-xl md:text-2xl'>
+                <p className='mt-20 md:mt-28 text-center text-base sm:text-lg md:text-2xl'>
                     Crafting transformative narratives that 
                     celebrate the beauty and 
                 </p>
-                <p className='text-center text-lg sm:text-xl md:text-2xl mb-10'>
+                <p className='text-center text-base sm:text-lg md:text-2xl mb-10'>
                     resilience of the LGBTQ+ experience.
                 </p>
                 <div className='mx-auto px-10 relative'>
@@ -34,11 +34,11 @@ export default function WhatWeDo(){
                             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
                         </div>
-                    <h3 className='text-lg sm:text-xl md:text-2xl font-semibold mb-3 
+                    <h3 className='text-base sm:text-lg md:text-xl font-bold mb-3 
                     group-hover:translate-y-1 transition-transform duration-300'>
                         Creative Conceptions
                     </h3>
-                    <p className='text-lg sm:text-xl md:text-2xl group-hover:translate-y-2 
+                    <p className='text-base sm:text-lg md:text-xl group-hover:translate-y-2 
                     transition-transform duration-300'>
                         Transforming bold ideas into captivating visual stories that resonate with audiences.
                     </p>
@@ -60,11 +60,11 @@ export default function WhatWeDo(){
                             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
                         </div>
-                    <h3 className='text-lg sm:text-xl md:text-2xl font-semibold mb-3 
+                    <h3 className='text-base sm:text-lg md:text-xl font-bold mb-3 
                     group-hover:translate-y-1 transition-transform duration-300'>
                         Shooting & Editing
                     </h3>
-                    <p className='text-lg sm:text-xl md:text-2xl group-hover:translate-y-2 
+                    <p className='text-base sm:text-lg md:text-xl group-hover:translate-y-2 
                     transition-transform duration-300'>
                     With an eye for detail and a keen sense of cinematic artistry, 
                     our team brings stories to life.
@@ -87,16 +87,16 @@ export default function WhatWeDo(){
                             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
                         </div>
-                    <h3 className='text-lg sm:text-xl md:text-2xl font-semibold mb-3 
+                    <h3 className='text-base sm:text-lg md:text-xl font-bold mb-3 
                     group-hover:translate-y-1 transition-transform duration-300'>
                         Line Production
                     </h3>
-                    <p className='text-lg sm:text-xl md:text-2xl group-hover:translate-y-2 
+                    <p className='text-base sm:text-lg md:text-xl group-hover:translate-y-2 
                     transition-transform duration-300'>
                         Whatever your requirements are, we have the 
                         experience to execute your film project in the best way.
                     </p>
-                    <svg className='h-6 w-6 sm:w-10 sm:h-10 md:w-16 md:h-16 group-hover:translate-y-3 transition-transform
+                    <svg className='h-8 w-8 sm:w-10 sm:h-10 md:w-16 md:h-16 group-hover:translate-y-3 transition-transform
                     duration-300' viewBox="0 0 90 89" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.99257 72.6767L16.368 66.3013C12.4288 61.2843 9.9318 55.2884 9.14548 48.9584H0.139648C1.03132 57.9197 4.59798 66.0784 9.99257 72.6767ZM22.6542 16.368C27.6918 12.435 33.7002 9.93926 40.0417 9.14548V0.139648C31.0805 1.03132 22.9217 4.59798 16.3234 9.99257L22.6542 16.368ZM0.139648 40.0417H9.14548C9.94798 33.5326 12.5338 27.603 16.368 22.6542L9.99257 16.3234C4.44133 23.085 1.01332 31.337 0.139648 40.0417ZM49.1813 0.139648V9.14548C66.658 11.4638 80.1667 26.4438 80.1667 44.5001C80.1667 62.5563 66.658 77.5363 49.1813 79.8547V88.8605C71.6067 86.4976 89.0834 67.5051 89.0834 44.5001C89.0834 21.4951 71.6067 2.50257 49.1813 0.139648ZM62.3334 44.5001L49.1813 34.6471L35.5834 24.4376V64.5626L49.1813 54.353L62.3334 44.5001ZM16.3234 79.0076C23.0919 84.5473 31.3403 87.9739 40.0417 88.8605V79.8547C33.7002 79.0609 27.6918 76.5651 22.6542 72.6321L16.3234 79.0076Z" fill="#FF1B1E"/>
                     </svg>

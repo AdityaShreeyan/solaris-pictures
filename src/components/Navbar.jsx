@@ -28,19 +28,25 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-colors duration-150
        ${isScrolled ? 'bg-white shadow-lg' : 'bg-transparent' }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
-          <div className="flex-shrink-0 flex items-center">
-            <a href="/" className={`text-2xl font-bold
-            ${isScrolled ? 'text-black' : 'text-white'}`}>SOLARIS PICTURES</a>
+      <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          <div className="flex-shrink-0 flex">
+            <a href="/"><img src="src/assets/Solaris-Pictures_Logo 1.png" alt="Logo" className="h-12 w-auto"/></a>
           </div>
-          <div className="hidden md:flex space-x-12 items-center">
+          <div className="hidden md:flex space-x-20 items-center">
             <a href="#home" className={`${isScrolled ? 'text-black' : 'text-white'} hover:text-gray-300`}>Home</a>
             <a href="#about" className={`${isScrolled ? 'text-black' : 'text-white'} hover:text-gray-400`}>About</a>
             <a href="#festivals" className={`${isScrolled ? 'text-black' : 'text-white'} hover:text-gray-400`}>Festivals</a>
             <a href="#awards" className={`${isScrolled ? 'text-black' : 'text-white'} hover:text-gray-400`}>Awards</a>
-            <a href="#contact" className="bg-red-600 px-4 py-2 rounded-md hover:bg-red-700"
-            style={{ color: isScrolled ? 'black' : 'white' }}>Contact</a>
+            <a href="#contact" className="bg-red-600 px-4 py-2 rounded-md hover:bg-red-700 flex items-center space-x-2"
+              style={{ color: isScrolled ? 'black' : 'white' }}>
+              <span>Contact</span>
+              <svg
+              className="h-5 w-5 mt-2"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"><path strokeLinecap="round"strokeLinejoin="round"strokeWidth="2"d="M9.125 0.875L14.75 6.5M14.75 6.5L9.125 12.125M14.75 6.5L1.25 6.5" /></svg></a>
           </div>
 
           {/* Hamburger menu button */}
@@ -93,14 +99,20 @@ const Navbar = () => {
           </svg>
         </button>
 
-        <div className="flex flex-col mt-16 space-y-6 px-4">
+        <div className="flex flex-col mt-16 space-y-6 px-4 w-32">
           <a href="#home" className="text-white block text-lg hover:text-gray-300">Home</a>
           <a href="#about" className="text-white block text-lg hover:text-gray-300">About</a>
           <a href="#festivals" className="text-white block text-lg hover:text-gray-300">Festivals</a>
           <a href="#awards" className="text-white block text-lg hover:text-gray-300">Awards</a>
-          <a href="#contact" className="bg-red-600 text-white px-1 w-28 py-2 rounded-md hover:bg-red-700">
-            Contact
-          </a>
+          <a href="#contact" className="bg-red-600 pl-1 text-lg py-2 rounded-md hover:bg-red-700 flex items-center space-x-2"
+              style={{ color: isScrolled ? 'black' : 'white' }}>
+              <span>Contact</span>
+              <svg
+              className="h-5 w-5 mt-2"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"><path strokeLinecap="round"strokeLinejoin="round"strokeWidth="2"d="M9.125 0.875L14.75 6.5M14.75 6.5L9.125 12.125M14.75 6.5L1.25 6.5" /></svg></a>
         </div>
       </div>
     </nav>

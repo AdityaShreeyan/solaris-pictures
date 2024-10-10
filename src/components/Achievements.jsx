@@ -7,11 +7,11 @@ export default function Achievements(){
     
         {/* Red Square */}
         <div className='bg-red-600 h-11 w-11 sm:h-12 sm:w-12 md:h-16 md:w-16 absolute top-5 -left-2'></div>
-        <h2 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mt-10 mb-10 ml-5 relative'>
+        <h2 className='text-2xl sm:text-4xl md:text-6xl font-bold mt-10 mb-10 ml-5 relative'>
           Our Achievements
         </h2>
                
-        <p className='mb-4 ml-5 text-lg sm:text-xl md:text-2xl'>
+        <p className='mb-4 ml-5 text-base sm:text-lg md:text-2xl'>
         Our films have played at numerous film festivals world-wide and garnered several 
         pretigious national and international awards, celebrating our commitment to authentic
         storytelling with human connect, and inspiring change in the industry.

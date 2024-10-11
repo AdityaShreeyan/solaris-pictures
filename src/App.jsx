@@ -16,10 +16,10 @@ function App() {
     <About />
     <Achievements />
     <WhatWeDo /> 
-    {/* <OurMovies />
+    <OurMovies />
     <MeetTheTeam />
     <InstagramHighlights />
-    <Footer /> */}
+    <Footer />
     </>
   )
 }

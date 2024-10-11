@@ -37,7 +37,7 @@ export default function About(){
                         style={{
                         backgroundImage:'url("src/assets/about.jpg")',
                         backgroundSize: 'cover', 
-                        backgroundClip: 'text', 
+                        WebkitBackgroundClip: 'text', 
                         color:'transparent'}}>
                             28
                     </div>

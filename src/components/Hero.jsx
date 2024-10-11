@@ -97,7 +97,7 @@ export default function Hero() {
         </div>
 
         <div className="flex flex-col sm:flex-row sm:space-x-4 
-        items-center justify-center space-y-4 sm:space-y-0 absolute bottom-10 sm:bottom-20 md:bottom-72 leading-none">
+        items-center justify-center space-y-4 sm:space-y-0 absolute bottom-10 sm:bottom-20 md:bottom-40 leading-none">
           <div className="min-h-[48px]">
           <button className="bg-red-600 hover:bg-red-700 px-6 sm:py-6 py-5 md:py-3 
           rounded-lg text-white sm:h-8 h-4 md:h-12 flex items-center space-x-4
@@ -115,7 +115,7 @@ export default function Hero() {
           {!isClicked && (
             <button
               className={`bg-transparent border-2 border-white px-6 sm:py-6 py-5 md:py-3  
-              rounded-lg text-white hover:bg-red-600 transition duration-200
+              rounded-lg text-white hover:bg-red-600 transition duration-100
               sm:h-8 h-4 md:h-12
               flex items-center space-x-4
               text-base sm:text-lg md:text-xl

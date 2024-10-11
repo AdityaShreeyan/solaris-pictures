@@ -104,8 +104,7 @@ const Navbar = () => {
           <a href="#about" className="text-white block text-lg hover:text-gray-300">About</a>
           <a href="#festivals" className="text-white block text-lg hover:text-gray-300">Festivals</a>
           <a href="#awards" className="text-white block text-lg hover:text-gray-300">Awards</a>
-          <a href="#contact" className="bg-red-600 pl-1 text-lg py-2 rounded-md hover:bg-red-700 flex items-center space-x-2"
-              style={{ color: isScrolled ? 'black' : 'white' }}>
+          <a href="#contact" className="bg-red-600 text-white pl-1 text-lg py-2 rounded-md hover:bg-red-700 flex items-center space-x-2">
               <span>Contact</span>
               <svg
               className="h-5 w-5 mt-2"

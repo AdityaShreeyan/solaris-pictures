@@ -19,7 +19,7 @@ export default function Achievements(){
         </div>
 
         {/* Adjust grid for larger screens */}
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 md:w-full xl:w-1/2'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 md:w-full xl:w-1/2'>
 
           {/* Card 1 */}
           <div className='group bg-white relative p-6 border-2 border-gray-300 rounded-md text-center overflow-hidden md:hover:text-white md:transition-all duration-500'>

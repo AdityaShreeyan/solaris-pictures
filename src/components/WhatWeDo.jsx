@@ -12,10 +12,10 @@ export default function WhatWeDo(){
                     </div>
                 <p className='mt-20 md:mt-28 text-center text-base sm:text-lg md:text-2xl'>
                     Crafting transformative narratives that 
-                    celebrate the beauty and 
+                    celebrate the
                 </p>
                 <p className='text-center text-base sm:text-lg md:text-2xl mb-10'>
-                    resilience of the LGBTQ+ experience.
+                    beauty and  resilience of the LGBTQ+ experience.
                 </p>
                 <div className='mx-auto px-10 relative'>
             {/* Cards Section */}

@@ -37,7 +37,7 @@ export default function Hero() {
                 fadeOut ? 'opacity-0' : 'opacity-100'
               }`}
             >
-              Solaris Pictures
+              SOLARIS PICTURES
             </h1>
             <p
               className={`text-base sm:text-lg md:text-2xl mb-1 md:mb-10 max-w-lg transition duration-700 ${

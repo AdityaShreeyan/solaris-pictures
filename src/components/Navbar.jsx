@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,8 +35,8 @@ const Navbar = () => {
             <a href="/"><img src="src/assets/Solaris-Pictures_Logo 1.png" alt="Logo" className="h-12 w-auto"/></a>
           </div>
           <div className="hidden md:flex space-x-20 items-center">
-            <a href="#home" className={`${isScrolled ? 'text-black' : 'text-white'} hover:text-gray-300`}>Home</a>
-            <a href="#about" className={`${isScrolled ? 'text-black' : 'text-white'} hover:text-gray-400`}>About</a>
+            <Link to="/" className={`${isScrolled ? 'text-black' : 'text-white'} hover:text-gray-300`}>Home</Link>
+            <Link to="/aboutus" className={`${isScrolled ? 'text-black' : 'text-white'} hover:text-gray-400`}>About</Link>
             <a href="#festivals" className={`${isScrolled ? 'text-black' : 'text-white'} hover:text-gray-400`}>Festivals</a>
             <a href="#awards" className={`${isScrolled ? 'text-black' : 'text-white'} hover:text-gray-400`}>Awards</a>
             <a href="#contact" className="bg-red-600 px-4 py-2 rounded-md hover:bg-red-700 flex items-center space-x-2"
@@ -100,8 +101,8 @@ const Navbar = () => {
         </button>
 
         <div className="flex flex-col mt-16 space-y-6 px-4 w-32">
-          <a href="#home" className="text-white block text-lg hover:text-gray-300">Home</a>
-          <a href="#about" className="text-white block text-lg hover:text-gray-300">About</a>
+          <Link to="/" className="text-white block text-lg hover:text-gray-300">Home</Link>
+          <Link to="/aboutus" className="text-white block text-lg hover:text-gray-300">About</Link>
           <a href="#festivals" className="text-white block text-lg hover:text-gray-300">Festivals</a>
           <a href="#awards" className="text-white block text-lg hover:text-gray-300">Awards</a>
           <a href="#contact" className="bg-red-600 text-white pl-1 text-lg py-2 rounded-md hover:bg-red-700 flex items-center space-x-2">
